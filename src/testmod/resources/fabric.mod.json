@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-generator-types-testmod",
+  "name": "Fabric Generator Types test mod",
+  "version": "${version}",
+  "environment": "*",
+  "license": "Apache-2.0",
+  "depends": {
+    "fabric-generator-types": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "com.github.amusingimpala75.fabricgeneratortypes.testmod.TestMod"
+    ]
+  }
+}

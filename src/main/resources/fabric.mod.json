@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-generator-types",
+  "version": "${version}",
+  "name": "Fabric Generator Types",
+  "description": "Allows creation of GeneratorTypes without the use of mixins or access wideners",
+  "authors": [
+    "AmusingImpala75"
+  ],
+  "contact": {
+    "repo": "https://github.com/amusingimpala75/fabricgeneratortypes"
+  },
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "fabricgeneratortypes.mixins.json"
+  ],
+  "accessWidener": "fabricgeneratortypes.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.1"
+  }
+}
