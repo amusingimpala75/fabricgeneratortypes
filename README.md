@@ -22,7 +22,7 @@ dependencies {
 }
 ```
 
-The latest version is: v1.0.0, add it to your gradle.properties
+The latest version is: v1.0.1, add it to your gradle.properties
 
 To use the API, call either:
 - FabricGeneratorTypes#registerGeneratorType
